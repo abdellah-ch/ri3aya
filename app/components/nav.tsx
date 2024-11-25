@@ -51,9 +51,7 @@ const Nav = () => {
                 </button>
                 {!isVertical && (
                     <div className="flex space-x-6 items-center">
-                        <a href="#" className="text-zinc-800 dark:text-zinc-200 hover:text-zinc-600">
-                            List your business
-                        </a>
+
                         <a href="#" className="text-zinc-800 dark:text-zinc-200 hover:text-zinc-600">
                             Postuler
                         </a>

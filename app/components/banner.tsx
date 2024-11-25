@@ -113,7 +113,7 @@ const Banner = () => {
                             </span>
                             <input
                                 type="text"
-                                placeholder="ZIP code"
+                                placeholder="Ville"
                                 className="flex-1 p-2 border-none outline-none text-muted-foreground"
                             />
                         </div>
