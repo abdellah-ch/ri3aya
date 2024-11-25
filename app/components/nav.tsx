@@ -10,7 +10,7 @@ const Nav = () => {
     const pathname = usePathname();
 
     // Check if the URL contains '/vertical'
-    const isVertical = pathname.includes('/vertical');
+    const isVertical = pathname.includes('/vertical') || pathname.includes('/profiles');
     const router = useRouter();
     return (
         <>

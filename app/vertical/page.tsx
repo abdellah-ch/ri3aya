@@ -3,13 +3,15 @@
 import React, { useState } from 'react';
 import { LuHeartHandshake } from "react-icons/lu";
 import { FaBookOpen } from "react-icons/fa";
-
+import { useRouter } from 'next/navigation';
 const Page: React.FC = () => {
     const [selectedCareType, setSelectedCareType] = useState<string>('');
 
     const handleSelection = (value: string) => {
         setSelectedCareType(value);
     };
+
+    const router = useRouter()
 
     return (
         <div className="max-w-md mx-auto p-6 bg-background rounded-lg shadow-md">
@@ -49,8 +51,11 @@ const Page: React.FC = () => {
                 ))}
 
                 <button
-                    className="mt-4 w-full bg-[#EF5844] text-white p-2 rounded-full hover:bg-accent/80"
-                    onClick={(e) => e.preventDefault()}
+                    className="mt-4 w-full bg-[#EF5844] text-white p-2 py-3 rounded-full hover:bg-accent/80"
+                    onClick={(e) => {
+                        e.preventDefault()
+                        router.push("/profiles")
+                    }}
                 >
                     Suivant
                 </button>
