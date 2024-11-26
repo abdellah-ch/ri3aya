@@ -26,7 +26,7 @@ const Profile = () => {
                     <div className="p-4 bg-muted rounded-lg shadow-sm">
                         <p className="font-bold">Fatima Z.</p>
                         <p>
-                            عبدالله est très attentionné et a aidé ma mère pendant 6 mois. Je recommande vivement ses services.
+                            عبدالله est très attentionné et a aidé ma mère pendant 15 jours. Je recommande vivement ses services.
                         </p>
                     </div>
                     <div className="p-4 bg-muted rounded-lg shadow-sm">
